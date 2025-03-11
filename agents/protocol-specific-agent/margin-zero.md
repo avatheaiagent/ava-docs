@@ -1,4 +1,4 @@
-# MarginZero Integration
+# MarginZero Agent
 
 The MarginZero integration provides advanced options and derivatives trading capabilities to the Ava Portfolio Manager. This component enables users to create, manage, and trade options contracts on various underlying assets, enhancing the platform's trading and risk management capabilities.
 
@@ -8,11 +8,11 @@ MarginZero is a decentralized options protocol that allows for the creation and 
 
 ## Key Features
 
-- Options contract creation and trading
-- Position management for options positions
-- Advanced risk management tools
-- Options data analytics and pricing
-- Integration with the Sonic Agent for seamless operations
+* Options contract creation and trading
+* Position management for options positions
+* Advanced risk management tools
+* Options data analytics and pricing
+* Integration with the Sonic Agent for seamless operations
 
 ## Architecture
 
@@ -204,30 +204,30 @@ console.log(`Amounts: ${result.amounts}`);
 
 The MarginZero Provider implements robust error handling:
 
-- Contract-level errors are properly decoded and reported
-- RPC connection failures include retry mechanisms
-- Transaction simulation is performed before execution
-- Gas estimation failures provide clear error messages
+* Contract-level errors are properly decoded and reported
+* RPC connection failures include retry mechanisms
+* Transaction simulation is performed before execution
+* Gas estimation failures provide clear error messages
 
 ## Security Considerations
 
-- Private keys are never exposed in logs or responses
-- All parameters are validated before transactions
-- Transaction limits can be configured for risk management
-- Slippage protection is included for all transactions
+* Private keys are never exposed in logs or responses
+* All parameters are validated before transactions
+* Transaction limits can be configured for risk management
+* Slippage protection is included for all transactions
 
 ## Future Enhancements
 
 Planned improvements to the MarginZero integration include:
 
-- Support for exotic option types
-- Advanced options strategies (spreads, straddles, etc.)
-- Portfolio hedging automation
-- Options analytics dashboard
-- Cross-chain options trading
+* Support for exotic option types
+* Advanced options strategies (spreads, straddles, etc.)
+* Portfolio hedging automation
+* Options analytics dashboard
+* Cross-chain options trading
 
 ## Technical References
 
-- [Position Manager ABI](../references/abis/position-manager.md)
-- [Option Market ABI](../references/abis/option-market.md)
-- [MarginZero Protocol Documentation](https://docs.marginzero.exchange/) 
+* [Position Manager ABI](../../references/abis/position-manager.md)
+* [Option Market ABI](../../references/abis/option-market.md)
+* [MarginZero Protocol Documentation](https://docs.marginzero.exchange/)
