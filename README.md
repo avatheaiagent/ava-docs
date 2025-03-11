@@ -1,49 +1,97 @@
-# Ava: The Multichain DeFAI Portfolio Manager
+# Ava Portfolio Manager Documentation
 
-Welcome to the official documentation for Ava, a sophisticated AI-powered portfolio management platform designed to provide autonomous and intelligent DeFi strategies across multiple blockchains.
+Welcome to the official documentation for the **Ava Portfolio Manager**, an AI-powered DeFi portfolio management platform. This documentation is intended for developers, users, and contributors who want to understand and leverage the capabilities of the Ava system.
 
-## Introduction
+## What is Ava Portfolio Manager?
 
-Ava is an advanced platform of specialized autonomous AI agents that work collaboratively to analyze, recommend, and execute optimal DeFi strategies while adhering to user-defined risk parameters and portfolio goals. The system operates across multiple blockchains including Flow, Hedera, Sui, Base, Avalanche, Mode, and Arbitrum, powered by Story Protocol and LangChain.
+Ava is a sophisticated multi-agent AI system designed to help users manage and optimize their DeFi portfolios across multiple blockchains. It combines natural language understanding, automated portfolio analysis, and blockchain integration to provide an intelligent and intuitive DeFi management experience.
+
+With Ava, users can:
+
+- **Monitor** their DeFi portfolio across multiple chains and protocols
+- **Analyze** performance and risk metrics
+- **Execute** transactions with natural language commands
+- **Optimize** portfolios based on goals and risk preferences
+- **Stay informed** about opportunities and risks in their portfolio
 
 ## Key Features
 
-- **Multi-Agent Architecture**: Specialized agents for different DeFi operations
-- **Natural Language Interface**: Express portfolio goals in plain English
-- **Autonomous Execution**: AI-driven decision making and transaction execution
-- **Cross-Chain Operations**: Seamless interaction across multiple blockchains
-- **Advanced Trading & Routing**: MEV-protected trades and gas-optimized transactions
-- **Treasury Management**: Automated portfolio rebalancing and yield optimization
-- **Privacy & Security**: Secure transaction execution and encrypted agent communication
+- **Natural Language Interface**: Interact with your portfolio using conversational language
+- **Multi-Chain Support**: Manage assets across different blockchains
+- **Protocol Integrations**: Access popular DeFi protocols like Uniswap, Aave, MarginZero, and more
+- **Portfolio Analytics**: Get detailed insights into your portfolio performance
+- **AI-Powered Recommendations**: Receive personalized optimization suggestions
+- **Automated Strategies**: Set up and execute complex DeFi strategies
+- **Real-Time Monitoring**: Stay updated on your portfolio status and market conditions
 
-## Core Components
+## Documentation Structure
 
-- [Agent System](./agents/index.md): Overview of the multi-agent architecture
-- [Frontend Interface](./frontend/index.md): User interface and interaction layers
-- [Backend Services](./server/index.md): Core services and infrastructure
-- [Integration Guides](./integrations/index.md): Third-party protocol integrations
-- [Developer Resources](./developers/index.md): API documentation and SDK guides
+This documentation is organized into the following sections:
 
-## Getting Started
+### For Users
 
-- [Installation](./getting-started/installation.md): Setting up Ava locally
-- [Configuration](./getting-started/configuration.md): Configuring your environment
-- [First Steps](./getting-started/first-steps.md): Your first interactions with Ava
-- [Advanced Usage](./getting-started/advanced-usage.md): Exploring advanced features
+- [Getting Started](users/getting-started.md) - Learn how to start using Ava
+- [User Guide](users/user-guide.md) - Detailed instructions for using Ava's features
+- [Portfolio Management](users/portfolio-management.md) - Learn about portfolio features
+- [Trading and Execution](users/trading-execution.md) - Guide to trading capabilities
+- [FAQ](users/faq.md) - Frequently asked questions
 
-## Use Cases
+### For Developers
 
-Ava is designed to handle a wide range of DeFi operations, including:
+- [Getting Started](developers/getting-started.md) - Set up your development environment
+- [Architecture](architecture/overview.md) - Understand Ava's system architecture
+- [API Reference](api/overview.md) - Explore the API documentation
+- [Contributing Guide](developers/contributing.md) - Learn how to contribute to Ava
+- [Tools and Commands](developers/tools-commands.md) - Reference for development tools
 
-- Portfolio optimization across multiple protocols
-- Risk-managed yield farming
-- Cross-chain asset management
-- Smart portfolio rebalancing
-- Automated yield optimization
-- Market opportunity exploitation
+### Agents
 
-## Support and Community
+- [Eliza Agent](agents/eliza.md) - The natural language interface
+- [Sonic Agent](agents/sonic.md) - The blockchain transaction agent
+- [Move Agent](agents/move.md) - The portfolio analysis agent
+- [Task Manager Agent](agents/task-manager.md) - The coordination agent
 
-- [Troubleshooting](./support/troubleshooting.md): Common issues and solutions
-- [Contributing](./support/contributing.md): Contributing to Ava development
-- [Roadmap](./support/roadmap.md): Future development plans 
+### Protocol Integrations
+
+- [Overview](protocols/overview.md) - General information about protocol integrations
+- [Uniswap](protocols/uniswap.md) - Uniswap V3 integration
+- [Aave](protocols/aave.md) - Aave lending protocol integration
+- [MarginZero](protocols/marginzero.md) - MarginZero options protocol integration
+- [Adding New Protocols](protocols/adding-new-protocols.md) - Guide for adding protocol integrations
+
+### Technical Reference
+
+- [Event System](technical/event-system.md) - How the event bus works
+- [Storage System](technical/storage.md) - Data persistence architecture
+- [Security Model](technical/security.md) - Security considerations and implementation
+- [Configuration](technical/configuration.md) - System configuration options
+
+### Support
+
+- [Troubleshooting](support/troubleshooting.md) - Common problems and solutions
+- [Release Notes](support/release-notes.md) - Updates and changes in each version
+- [Community Resources](support/community.md) - Links to community channels and resources
+
+## Quick Start
+
+To get started with Ava Portfolio Manager:
+
+1. **For Users**: Visit the [User Getting Started Guide](users/getting-started.md)
+2. **For Developers**: Visit the [Developer Getting Started Guide](developers/getting-started.md)
+
+## Getting Help
+
+If you need help with Ava Portfolio Manager:
+
+- Check the [Troubleshooting](support/troubleshooting.md) guide
+- Visit our [GitHub repository](https://github.com/your-org/ava-portfolio-manager)
+- Join our [Discord community](https://discord.gg/ava-portfolio-manager)
+- Contact support at support@ava-portfolio-manager.com
+
+## Contributing
+
+We welcome contributions from the community! Please read our [Contributing Guide](developers/contributing.md) to learn how you can help improve Ava Portfolio Manager.
+
+## License
+
+Ava Portfolio Manager is released under the [MIT License](https://opensource.org/licenses/MIT). 
