@@ -30,7 +30,7 @@ You will also need API keys for various services:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ava-portfolio-manager-ai-agent.git
+git clone https://github.com/kamalbuilds/ava-portfolio-manager-ai-agent.git
 cd ava-portfolio-manager-ai-agent
 ```
 
