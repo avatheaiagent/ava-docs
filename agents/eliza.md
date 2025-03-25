@@ -4,7 +4,14 @@ The Eliza Agent serves as the primary conversational interface for the Ava Portf
 
 ## Overview
 
-Named after the pioneering ELIZA program—one of the first natural language processing computer programs—the Eliza Agent acts as the user's primary point of contact with the Ava system. It interprets natural language requests, coordinates with specialized agents, and presents information back to users in a clear, conversational format.
+### Eliza Agent
+Eliza serves as our conversational AI interface, providing human-like interaction while coordinating with other specialized agents:
+
+Code Links ->>
+
+1. https://github.com/kamalbuilds/ava-the-ai-agent/tree/dev/server/src/agents/eliza-agent
+
+2. https://github.com/kamalbuilds/ava-the-ai-agent/blob/dev/server/src/agents/task-manager/toolkit.ts#L59
 
 ## Key Functions
 
